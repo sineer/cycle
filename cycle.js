@@ -47,6 +47,7 @@ cycle.decycle = function decycle(object) {
             if (value === null ||
                   value instanceof Boolean ||
                   value instanceof Date ||
+                  value instanceof Error ||
                   value instanceof Number ||
                   value instanceof RegExp ||
                   value instanceof String) {
